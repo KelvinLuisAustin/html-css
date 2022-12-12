@@ -11,7 +11,7 @@
     * {
         margin: 0%;
         padding: 0px;
-        
+        font-
     }
         html, body {
             min-height: 100vh;
@@ -47,12 +47,7 @@
         a:hover {
             text-decoration: underline;
         }
-        p {
-            font-family: 'Sriracha', cursive, Arial, Helvetica, sans-serif;
-            font-size: 24px;
         
-        }
-
         section {
             padding-left: 30px;
             padding-top: 10vh;
@@ -61,6 +56,11 @@
             font-family: var(--fonte3);
             font-size: 3.5vw;
         }
+
+        section > p {
+            padding-bottom: 2em;
+        }
+
         .normal {
             background-color: white;
             color: black;
@@ -69,12 +69,25 @@
             background-color: darkgray
             ;
             color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+            background-size: cover;
+            background-attachment: fixed;
 
         }
         .imagem > p {
             display: inline-block;
             padding: 5px;
-            background-color: rgba(0, 0, 0, 0.219);
+            background-color: rgba(0, 0, 0, 0.503);
+            text-shadow: 1px 1px 0px black;
+        }
+
+        #img01{
+            background-image: url(../imagens/background001.jpg);
+            background-position: right center;   
+        }
+
+        #img02{
+            background-image: url(../imagens/background002.jpg);   
         }
         footer > p {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
